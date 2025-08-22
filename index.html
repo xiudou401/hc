@@ -3,40 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Learning HTML</title>
+    <title>html forms</title>
   </head>
   <body>
-    <div>
-      <p>Hello,<strong>Ninjas</strong></p>
-      <p>Welcome <small>to</small> my <em>first</em> website</p>
-      <a href="https://www.google.com">Google</a>
-      <a href="./about.html">About</a>
-    </div>
+    <h1>html forms</h1>
+    <form>
+      <label for="username">enter username:</label>
+      <input
+        type="text"
+        id="username"
+        name="username"
+        placeholder="username"
+        required
+      />
+      <br /><br />
+      <label for="email">enter email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="your email"
+        required
+      />
+      <br /><br />
+      <label for="password">password:</label>
+      <input
+        type="password"
+        id="password"
+        name="email"
+        placeholder="choose a password"
+        required
+      />
+      <p>Select your age:</p>
+      <input type="radio" name="age" value="0-25" id="option-1" />
+      <label for="option-1">0-25</label>
+      <input type="radio" name="age" value="26-50" id="option-2" />
+      <label for="option-2">26-50</label>
+      <input type="radio" name="age" value="51+" id="option-3" />
+      <label for="option-2">50+</label>
 
-    <div>
-      <h1>heading 1</h1>
-      <h2>heading 2</h2>
-      <h3>heading 3</h3>
-      <h4>heading 4</h4>
-    </div>
-    <div>
-      <ul>
-        <li>will</li>
-        <li>xiaomi</li>
-        <li>tencent</li>
-      </ul>
-    </div>
+      <br /><br />
+      <label for="question">Security question:</label>
 
-    <span
-      >I am a <br />
-      span tag</span
-    >
-    <hr />
-    <img src="img/tencentlogo.png" alt="tencent img" />
-    <blockquote cite="http://www.oscarwildesite.com">
-      We are all in the gutter, but some of us are looking at the stars
-    </blockquote>
-    <!--xiaomi-->
-    <p style="color: orange">style me:</p>
+      <select name="question" id="question">
+        <option value="q1">What color?</option>
+        <option value="q2">What vegs?</option>
+        <option value="q3">What security?</option>
+      </select>
+
+      <br /><br />
+      <label for="answer">Security question answer:</label>
+      <input type="text" id="answer" name="answer" />
+
+      <br /><br />
+      <label for="bio">you bio:</label>
+      <br />
+      <textarea name="bio" id="bio" placeholder="about you..."></textarea>
+
+      <input type="submit" value="submit the form" />
+    </form>
   </body>
 </html>
