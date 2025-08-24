@@ -1,4 +1,4 @@
-p.error {
+/* p.error {
   color: red;
 }
 
@@ -13,4 +13,34 @@ p.success.feedback {
 #content {
   background-color: #ebebeb;
   padding: 20px;
+} */
+
+/* div p {
+  color: purple;
+} */
+
+/* div .error {
+  color: purple;
+} */
+
+/* a[href="https://www.google.com"]
+{
+  background-color: green;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+} */
+
+/* a[href*='google'] {
+  background-color: yellow;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+} */
+
+a[href$='com'] {
+  background-color: yellow;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
 }
