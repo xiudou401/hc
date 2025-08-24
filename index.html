@@ -1,41 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>html forms</title>
+    <title>Marioclub</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div id="content">
+    <header>
+      <h1>Marioclub</h1>
+    </header>
+    <section class="banner">
+      <img src="img/banner.png" alt="Marioclub welcome banner" />
+      <div class="welcome">
+        <h2>welcome to <br /><span>Marioclub</span></h2>
+      </div>
+    </section>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="/join.html" class="join">Join the club</a></li>
+        <li><a href="/news.html" class="news">Latest news</a></li>
+        <li><a href="/games.html" class="news">New games</a></li>
+        <li><a href="/contact.html" class="news">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <article>
+        <h2>It's me, Mario</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere cum
+          reprehenderit voluptas eligendi, deserunt fuga suscipit odio alias
+          pariatur enim cumque officiis accusantium qui, ab illo, sed vitae
+          inventore aliquid. Lorem ipsum, dolor sit amet consectetur adipisicing
+          elit. Quisquam cupiditate, veniam quod est illo quasi voluptas,
+          consequatur dicta praesentium maxime suscipit vel possimus
+          perspiciatis eos aliquam ipsum, iste temporibus dignissimos? Lorem
+          ipsum dolor sit, amet consectetur adipisicing elit. Saepe, quasi,
+          cupiditate quibusdam et harum itaque vel placeat tempora veritatis,
+          explicabo nesciunt velit ipsam illo maxime nihil perferendis deleniti
+          repellendus deserunt.
+        </p>
+      </article>
+      <ul class="images">
+        <li><img src="img/thumb-1.png" alt="mario thumb 1" /></li>
+        <li><img src="img/thumb-2.png" alt="mario thumb 2" /></li>
+      </ul>
+    </main>
+    <section class="join">
+      <h2>Join Today!</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ab
-        adipisci aut eos tempora non ut voluptate a maiores vero voluptates
-        voluptatum iste animi modi nemo, nam architecto nulla? Nobis.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
+        asperiores fuga nulla eius dolores odit aspernatur laborum! Tempore in,
+        consequuntur sed dignissimos dolorem similique, asperiores fugiat enim
+        praesentium quas reiciendis!
       </p>
-      <p class="error">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ab
-        adipisci aut eos tempora non ut voluptate a maiores vero voluptates
-        voluptatum iste animi modi nemo, nam architecto nulla? Nobis.
-      </p>
-      <p class="success">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ab
-        adipisci aut eos tempora non ut voluptate a maiores vero voluptates
-        voluptatum iste animi modi nemo, nam architecto nulla? Nobis.
-      </p>
-      <p class="success feedback">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ab
-        adipisci aut eos tempora non ut voluptate a maiores vero voluptates
-        voluptatum iste animi modi nemo, nam architecto nulla? Nobis.
-      </p>
-    </div>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima expedita
-      repudiandae cupiditate eius nisi. Quos harum, fuga culpa odio dignissimos
-      vitae perspiciatis, ea molestias, aliquam rerum quia repellendus hic
-      mollitia.
-    </p>
-    <div class="error">I am an error</div>
-
-    <a href="https://www.google.com">Google</a>
-    <a href="https://www.youtube.com">Youtube</a>
+      <form>
+        <input
+          type="email"
+          name="email"
+          placeholder="Type email & hit enter"
+          required
+        />
+      </form>
+    </section>
+    <footer><p class="copyright">Copyright 2019 Marioclub</p></footer>
   </body>
 </html>
