@@ -176,9 +176,10 @@ nav li a {
 nav li a.join {
   color: #f63232;
 } */
-header {
+
+/* header {
   background-color: red;
-  /* padding: 20px 0; */
+
   margin: 20px 0;
   position: fixed;
   width: 100%;
@@ -198,4 +199,45 @@ header h1 {
 
 .banner {
   position: relative;
+} */
+
+header {
+  background-color: #f63232;
+  padding: 20px 0;
+  text-align: center;
+  left: 0;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+header h1 {
+  border: 8px solid white;
+  color: white;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 36px;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner img {
+  max-width: 100%;
+}
+
+.banner .welcome {
+  background-color: #feb614;
+  padding: 30px;
+  font-size: 60px;
+  position: absolute;
+  color: white;
+  top: 30%;
+  left: 0;
+}
+
+.banner .welcome span {
+  font-size: 1.4em;
 }
