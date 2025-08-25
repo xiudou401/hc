@@ -200,7 +200,7 @@ header h1 {
 .banner {
   position: relative;
 } */
-
+/* 
 header {
   background-color: #f63232;
   padding: 20px 0;
@@ -236,6 +236,47 @@ header h1 {
   color: white;
   top: 30%;
   left: 0;
+}
+
+.banner .welcome span {
+  font-size: 1.4em;
+} */
+
+header {
+  background-color: #f63232;
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+header h1 {
+  border: 8px solid white;
+  padding: 6px 12px;
+  display: inline-block;
+  border-radius: 36px;
+  color: white;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner img {
+  max-width: 100%;
+}
+
+.banner .welcome {
+  background: #feb614;
+  color: white;
+  position: absolute;
+  padding: 30px;
+  font-size: 60px;
+  left: 0;
+  top: 30%;
 }
 
 .banner .welcome span {
