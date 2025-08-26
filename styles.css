@@ -614,9 +614,9 @@ header {
   padding: 20px 0;
   text-align: center;
   position: fixed;
+  width: 100%;
   left: 0;
   top: 0;
-  width: 100%;
   z-index: 1;
 }
 
@@ -647,7 +647,7 @@ header h1 {
 }
 
 .banner span {
-  font-size: 1.3em;
+  font-size: 1.4em;
 }
 
 nav {
@@ -658,21 +658,21 @@ nav {
 }
 
 nav ul {
-  white-space: nowrap;
-  text-align: center;
   max-width: 1200px;
   margin: 0 auto;
+  text-align: center;
+  white-space: nowrap;
 }
 
 nav li {
-  width: 25%;
   display: inline-block;
   font-size: 24px;
+  width: 25%;
 }
 
 nav li a {
-  color: #4b4b4b;
   text-decoration: none;
+  color: #4b4b4b;
 }
 
 nav a.join {
