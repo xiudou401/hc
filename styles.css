@@ -611,21 +611,19 @@ a {
 
 header {
   background-color: #f63232;
-  padding: 20px 0;
+  padding: 20px;
   text-align: center;
   position: fixed;
   width: 100%;
-  left: 0;
-  top: 0;
   z-index: 1;
 }
 
 header h1 {
+  color: white;
   border: 8px solid white;
   display: inline-block;
-  padding: 6px 12px;
-  color: white;
   border-radius: 36px;
+  padding: 6px 12px;
 }
 
 .banner {
@@ -638,8 +636,8 @@ header h1 {
 
 .banner .welcome {
   position: absolute;
-  padding: 30px;
   background-color: #feb614;
+  padding: 30x;
   font-size: 60px;
   color: white;
   left: 0;
@@ -653,36 +651,28 @@ header h1 {
 nav {
   background-color: #f4f4f4;
   padding: 20px;
+  white-space: nowrap;
   position: sticky;
-  top: 106px;
+  top: 104px;
 }
 
 nav ul {
-  white-space: nowrap;
-  max-width: 1200px;
-  margin: 0 auto;
+  width: 1200px;
   text-align: center;
+  margin: 0 auto;
 }
 
-nav li {
-  display: inline-block;
+nav ul li {
   width: 25%;
+  display: inline-block;
   font-size: 24px;
 }
 
 nav li a {
-  text-decoration: none;
   color: #4b4b4b;
+  text-decoration: none;
 }
 
 nav li a.join {
   color: #f63232;
-}
-
-main {
-  max-width: 100%;
-  width: 1200px;
-  margin: 80px auto;
-  padding: 0 40px;
-  box-sizing: border-box;
 }
