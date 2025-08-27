@@ -614,18 +614,18 @@ header {
   padding: 20px 0;
   text-align: center;
   position: fixed;
-  width: 100%;
   left: 0;
   top: 0;
+  width: 100%;
   z-index: 1;
 }
 
 header h1 {
-  color: white;
   border: 8px solid white;
   display: inline-block;
   padding: 6px 12px;
   border-radius: 36px;
+  color: white;
 }
 
 .banner {
@@ -640,10 +640,10 @@ header h1 {
   position: absolute;
   background-color: #feb614;
   padding: 30px;
-  font-size: 60px;
+  color: white;
   left: 0;
   top: 30%;
-  color: white;
+  font-size: 60px;
 }
 
 .banner span {
@@ -659,17 +659,19 @@ nav {
 
 nav ul {
   white-space: nowrap;
+  margin: 0 auto;
   text-align: center;
 }
 
 nav ul li {
-  display: inline-block;
   width: 25%;
-  font-size: 24px;
+  display: inline-block;
 }
 
 nav ul li a {
   text-decoration: none;
+  font-size: 25px;
+  color: #4b4b4b;
 }
 
 nav a.join {
@@ -707,9 +709,9 @@ article p::first-line {
 
 .images li {
   display: inline-block;
-  width: 40%;
-  margin: 20px 5%;
   list-style-type: none;
+  padding: 20px 5%;
+  width: 40%;
 }
 
 .images li img {
