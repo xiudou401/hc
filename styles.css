@@ -649,3 +649,32 @@ header h1 {
 .banner span {
   font-size: 1.4em;
 }
+
+nav {
+  background: #f4f4f4;
+  padding: 20px;
+  position: sticky;
+  top: 104px;
+}
+
+nav ul {
+  text-align: center;
+  white-space: nowrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav ul li {
+  display: inline-block;
+  font-size: 24px;
+  width: 25%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #4b4b4b;
+}
+
+nav ul li a.join {
+  color: #f63232;
+}
